@@ -39,6 +39,7 @@
     "not dead"
   ],
   "dependencies": {
-    "gulp-open": "^3.0.1"
+    "gulp-open": "^3.0.1",
+    "normalize-scss": "^7.0.1"
   }
 }
