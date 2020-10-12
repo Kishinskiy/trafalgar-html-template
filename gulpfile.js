@@ -54,8 +54,8 @@ gulp.task('build', gulp.parallel(
             .pipe(gulp.dest("docs/css"))
     },
     function (){
-        return gulp.src('src/img/**/*.+(jpg|png|svg)')
-            .pipe(gulp.dest('docs/img'))
+        return gulp.src('src/imgages/**/*.+(jpg|png|svg)')
+            .pipe(gulp.dest('docs/imgages'))
     },
     function(){
         return gulp.src('src/*.js')
