@@ -1,0 +1,16 @@
+.btn {
+    width: 200px;
+    height: 60px;
+    border: 1.4px solid $main-color;
+    background-color: #fff;
+    border-radius: 55px;
+    color: $main-color;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: $main-color;
+    transition: .5s;
+}
