@@ -13,11 +13,13 @@
             margin-top: 0;
             font-size: 48px;
             font-weight: 700;
+            color: $title-color
         }
         &__text {
             margin-top: 25px;
             font-size: 21px;
             font-weight: 300;
+            color: $second-color;
         }
         &__btn {
             margin-top: 45px;
@@ -26,11 +28,15 @@
             width: 200px;
             height: 60px;
             border: none;
+            cursor: pointer;
+            &:hover {
+                background-color: #ff69b4
+            }
         }
     }
 
     &__image {
         max-width: 693px;
-        height: 598px;
+        max-height: 598px;
     }
 }
