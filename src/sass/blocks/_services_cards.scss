@@ -20,11 +20,17 @@
     }
     &__title {
         text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        color: $title-color;
     }
 
     &__description {
         color: $second-color;
         text-align: center;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
     }
 
     &__card {
@@ -55,16 +61,19 @@
             font-size: 24px;
             font-weight: 700;
             margin-bottom: 30px;
+            color: $title-color;
         }
 
         &__description {
             color: $second-color;
             font-size: 16px;
             font-weight: 300;
+            line-height: 28px;
         }
     }
 
     &__btn{
-        margin: 69px auto;
+        margin: 0 auto;
+        margin-top: 69px;
     }
 }
