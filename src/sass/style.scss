@@ -1,5 +1,7 @@
 @import "./base/variables.scss";
 @import "./base/base.scss";
+@import "./libs/slick.scss";
+@import "./libs/slick-theme.scss";
 
 @import './blocks/buttons.scss';
 @import "./blocks/_horizontal_line.scss";
@@ -9,3 +11,4 @@
 @import './blocks/_services_cards.scss';
 
 @import "./blocks/illustration.scss";
+@import "./blocks/slider.scss";

@@ -1,0 +1,35 @@
+.slider {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+border-radius: 24px;
+// width: 1120px;
+height: 425px;
+color: #fff;
+text-align: center;
+margin: 0 auto;
+    margin-top: 266px;
+    &__title{
+        padding-top: 64px;
+    }
+    .hr {
+        background-color: #fff;
+        margin: 25px auto;
+    }
+    &__content {
+        // margin: 60px 218px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__testimonial{
+        max-width: 420px;
+        text-align: left;
+    }
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    &__avatar {
+        margin-right: 40px;
+    }
+}
