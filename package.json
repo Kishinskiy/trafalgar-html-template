@@ -1,8 +1,8 @@
 {
-  "name": "trafalgar",
+  "name": "trafalgar-html-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "directories": {
     "doc": "docs"
   },
@@ -11,35 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Kishinskiy/trafalgar-html-template.git"
+    "url": "git+https://github.com/Kishinskiy/trafalgar-html-template.git"
   },
-  "keywords": [
-    "template"
-  ],
-  "author": "Oleg_Kishinskiy",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Kishinskiy/trafalgar-html-template/issues"
   },
   "homepage": "https://github.com/Kishinskiy/trafalgar-html-template#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-build": "^0.5.3",
     "gulp-clean-css": "^4.3.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0",
-    "node-sass": "^4.14.1"
-  },
-  "browserslist": [
-    "last 2 versions",
-    "> 1%",
-    "maintained node versions",
-    "not dead"
-  ],
-  "dependencies": {
-    "gulp-open": "^3.0.1",
-    "normalize-scss": "^7.0.1"
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0"
   }
 }
